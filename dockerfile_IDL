@@ -17,7 +17,7 @@ RUN apt-get update && \
 	apt-get install -y libxpm4 && \
 	apt-get install -y vnc4server && \
 	printf "password\npassword\n\n" | vncpasswd && \
-	apt install -y xautomation
+	apt-get install -y xautomation
 
 
 
